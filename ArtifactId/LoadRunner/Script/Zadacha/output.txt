@@ -1,0 +1,70 @@
+Virtual User Script started at : 01.07.2017 16:24:15
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 4  	[MsgId: MMSG-26989]
+Starting action Actions.
+Notify: Transaction "SingletoneGet" started.
+Notify: Transaction "SingletoneGet" ended with a "Pass" status (Duration: 0,0136).
+Notify: Transaction "SingletoneChange" started.
+Notify: Transaction "SingletoneChange" ended with a "Pass" status (Duration: 0,0020).
+Ending action Actions.
+Ending iteration 1.
+Waiting 0,9020 seconds for iteration pacing.
+Starting iteration 2.
+Starting action Actions.
+Notify: Transaction "SingletoneGet" started.
+Notify: Transaction "SingletoneGet" ended with a "Pass" status (Duration: 0,0001).
+Notify: Transaction "SingletoneChange" started.
+Notify: Transaction "SingletoneChange" ended with a "Pass" status (Duration: 0,0000).
+Ending action Actions.
+Ending iteration 2.
+Waiting 0,9500 seconds for iteration pacing.
+Starting iteration 3.
+Starting action Actions.
+Notify: Transaction "SingletoneGet" started.
+System.err: java.lang.AssertionError: Строка Fail не содержит подстроку 'ass' expected [true] but found [false]                                                                                                                                                      Error
+System.err: 	at org.testng.Assert.fail(Assert.java:94)                                                                                                                                                      Error
+System.err: 	at org.testng.Assert.failNotEquals(Assert.java:513)                                                                                                                                                      Error
+System.err: 	at org.testng.Assert.assertTrue(Assert.java:42)                                                                                                                                                      Error
+System.err: 	at SingletoneGet.testGet(SingletoneGet.java:27)                                                                                                                                                      Error
+System.err: 	at Actions.action(Actions.java:32)                                                                                                                                                      Error
+System.err: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                                                                                                                      Error
+System.err: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)                                                                                                                                                      Error
+System.err: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)                                                                                                                                                      Error
+System.err: 	at java.lang.reflect.Method.invoke(Method.java:606)                                                                                                                                                      Error
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)                                                                                                                                                      Error
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)                                                                                                                                                      Error
+Error: java.lang.AssertionError: Строка Fail не содержит подстроку 'ass' expected [true] but found [false]
+Error: 	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at SingletoneGet.testGet(SingletoneGet.java:27)
+	at Actions.action(Actions.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)
+	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)
+Notify: Transaction "SingletoneGet" ended with a "Fail" status (Duration: 0,0304).
+Notify: Transaction "SingletoneGet" has 2 error message(s).
+Notify: The 1st error message associated with transaction "SingletoneGet" is "Error 0: java.lang.AssertionError: Строка Fail не содержит подстроку 'ass' expected [true] but found [false]"
+Notify: The 2nd error message associated with transaction "SingletoneGet" is "Error 0: 	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at SingletoneGet.testGet(SingletoneGet.java:27)
+	at Actions.action(Actions.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)
+	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)
+"
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

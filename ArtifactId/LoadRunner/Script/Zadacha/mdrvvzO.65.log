@@ -1,0 +1,64 @@
+Notify: Found jdk version: 1.7.0.	[MsgId: MMSG-22986]
+Notify: classpath=C:\Users\Admin\Documents\VuGen\Scripts\Zadacha;c:\program files (x86)\hp\loadrunner\classes\srv;c:\program files (x86)\hp\loadrunner\classes;;;C:\Users\Admin\Documents\VuGen\Scripts\Zadacha\ArtifactId-1.0-SNAPSHOT-shaded.jar;;c:\program files (x86)\hp\loadrunner\lib\xstream-1.4.8.jar;c:\program files (x86)\hp\loadrunner\lib\xpp3-1.1.4c.jar	[MsgId: MMSG-22986]
+Notify: Path=C:\Program Files (x86)\Java\jdk1.7.0_80\jre\bin\client;C:\Program Files (x86)\Java\jdk1.7.0_80\bin;C:\PROGRA~2\HP\LOADRU~1\bin;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\HP\LoadRunner\strawberry-perl\perl\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\NV\lib\shunra\snv;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.0;C:\Users\Admin\AppData\Local\Microsoft\WindowsApps;	[MsgId: MMSG-22986]
+Notify: VM Params: .	[MsgId: MMSG-22986]
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+System.err: 	at java.lang.reflect.Method.invoke(Method.java:606)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+Error: java.lang.AssertionError: Строка Fail не содержит подстроку 'ass' expected [true] but found [false]	[MsgId: MERR-17999]
+Error: 	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at SingletoneGet.testGet(SingletoneGet.java:27)
+	at Actions.action(Actions.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)
+	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)
+	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+System.err: 	at java.lang.reflect.Method.invoke(Method.java:606)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+Error: java.lang.AssertionError: Строка Fail не содержит подстроку 'ass' expected [true] but found [false]	[MsgId: MERR-17999]
+Error: 	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at SingletoneGet.testGet(SingletoneGet.java:27)
+	at Actions.action(Actions.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)
+	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)
+	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+System.err: 	at java.lang.reflect.Method.invoke(Method.java:606)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+System.err: 	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)                                                                                                                                                      Error	[MsgId: MMSG-17999]
+Error: java.lang.AssertionError: Строка Fail не содержит подстроку 'ass' expected [true] but found [false]	[MsgId: MERR-17999]
+Error: 	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at SingletoneGet.testGet(SingletoneGet.java:27)
+	at Actions.action(Actions.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.hpe.lr.java.replay.ScriptContainer.invoke(ScriptContainer.java:68)
+	at com.hpe.lr.java.replay.ScriptContainer.action(ScriptContainer.java:59)
+	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
